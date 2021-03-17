@@ -1,8 +1,14 @@
+import Link from 'next/link';
+
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+
 export interface HomeProps {}
 
 const Home: React.FC<HomeProps> = () => {
   return (
     <div>
+      <Navbar />
       <h1>Hello world!</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non est
@@ -16,6 +22,10 @@ const Home: React.FC<HomeProps> = () => {
         laboriosam id deleniti earum vitae, dolor magni voluptatibus. Quae error
         aliquid distinctio doloribus corporis.
       </p>
+      <Link href='/ninjas'>
+        <a>See Ninja Listing</a>
+      </Link>
+      <Footer />
     </div>
   );
 };
