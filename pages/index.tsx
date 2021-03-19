@@ -13,7 +13,7 @@ const Home: React.FC<HomeProps> = () => {
         <meta name='keywords' content='ninjas' />
       </Head>
       <div className={styles.title}>
-        <h1>Hello world!</h1>
+        <h1>Homepage</h1>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non est
           voluptate illum consequatur beatae facere perspiciatis id dolore animi
